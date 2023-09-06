@@ -7,10 +7,10 @@ Weather Details: The app displays essential weather details such as temperature,
 Responsive Design: The app is designed to work seamlessly on both desktop and mobile devices.
 
 ## How to Use
-• Clone the repository to your local machine.
-• Open the index.html file in your web browser.
-• Enter the name of the city or location you want to check the weather for in the search bar.
-• Press the "Search" button to fetch and display the weather information.
+• Clone the repository to your local machine.<br>
+• Open the index.html file in your web browser.<br>
+• Enter the name of the city or location you want to check the weather for in the search bar.<br>
+• Press the "Search" button to fetch and display the weather information.<br>
 
 ## Technologies Used
 HTML: Used for creating the structure of the web page.
