@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/weather.css">
+    <title>weather app</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-left">
+            <a href="home.html" target="_parent"><img src="logo/home.png" alt=""></a>
+        </div>
+        <div class="top-right">
+            <input id="city" type="text" placeholder="enter city name" spellcheck="false">
+            <button type="submit" id="submit"><img src="logo/search.png"></button>
+        </div>
+        <div class="weather-info">
+            <div class="content1">
+                <h1 ><span id="cityName"></span></h1>
+            </div>
+            <div id="content2">
+                <p></p>
+            </div>
+            <div id="content2-2">
+                <p>4:45pm</p>
+            </div>
+            <div class="content3">
+                <h1><span id="tmp">°C</span></h1>
+            </div>
+            <table class="bottom-content"  >
+                <tr>
+                    <th class="t1"><img src="logo/cloud.png"></th>
+                    <th><img src="logo/humidity.png"></th>
+                    <th><img src="logo/wind.png"></th>
+                </tr>
+                <tr>
+                    <td class="t1"><span id="cloud"></span></td>
+                    <td><span id="humidity"></span></td>
+                    <td><span id="wind"></span></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    
+    <script src="javascript/weather.js"></script>
+</body>
+</html>
